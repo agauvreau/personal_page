@@ -6,3 +6,15 @@ background-size: cover;
 body {
     background-color: #e8eef7;
 }
+
+#portrait-pic {
+    border-radius: 100px;
+    box-shadow: 0px 0px 2px 2px #687384;
+    margin: 5px;
+}
+
+.media-object {
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #687384;
+    margin: 5px;
+}
