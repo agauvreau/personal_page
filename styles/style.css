@@ -18,3 +18,29 @@ body {
     box-shadow: 0px 0px 2px 2px #687384;
     margin: 5px;
 }
+
+#sombrero {
+    background: url('../img/sombrero.png') 50% 0 repeat fixed;
+	min-height: 500px;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+
+}
+
+#pillar {
+    background: url('../img/Pillar.png') 50% 0 repeat fixed;
+    min-height: 500px;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+
+}
