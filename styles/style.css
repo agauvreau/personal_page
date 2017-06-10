@@ -20,7 +20,7 @@ body {
 }
 
 #sombrero {
-    background: url('../img/sombrero.png') 50% 0 repeat fixed;
+    background: url('../img/sombrero.png') 50% 0  fixed;
 	min-height: 500px;
 	position: relative;
 	display: table;
@@ -32,8 +32,8 @@ body {
 
 }
 
-#pillar {
-    background: url('../img/Pillar.png') 50% 0 repeat fixed;
+#nova {
+    background: url('../img/supernovaCrop.png') 50% 0  fixed;
     min-height: 500px;
 	position: relative;
 	display: table;

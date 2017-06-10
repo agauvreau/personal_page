@@ -30,7 +30,7 @@
         <div class="panel-heading">
             <ul class="nav nav-tabs">
                 <li class="active"><a data-toggle="tab" href="#travels">Travels <span class="glyphicon glyphicon-plane"></a></li>
-                <li><a data-toggle="tab" href="#menu1">Projects <span class="glyphicon glyphicon-wrench"></a></li>
+                <li><a data-toggle="tab" href="#paralax">Paralax sample <span class="glyphicon glyphicon-wrench"></a></li>
                 <li><a data-toggle="tab" href="#menu2">Small bits of codes <span class="glyphicon glyphicon-floppy-disk"></a></li>
             </ul>
         </div>       
@@ -160,18 +160,60 @@
                         </div>
                     </div>
                 </div>
-                <div id="menu1" class="tab-pane fade">
-                    <h3>Menu 1</h3>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div id="paralax" class="tab-pane fade">
+                     <div class="jumbotron">
+                        <h1>Here is my own example of a paralac effect</h1>
+                        <p>A paralax effect is basically a desynchronisation between the picture and the window. It is done using Javascript.</p>
+                    </div>
+                    <section id="sombrero" data-type="background" data-speed="5">
+                        
+                    </section>
+                   <div class="row">
+                       <div class="col-md-4">
+                           <div class='thumbnail'>
+                               <img src="img/html.png" alt="HTML">
+                           </div>
+                           <div class="caption">
+                               <h3>HTML ingredients</h3>
+                               <p>The HTML part of this will consist of two section tag inside a div of paralax id. Using the data-type attribute with a value of background and a data-speed of 5 we setup the environment for the next step: Javascript.</p>
+                        
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class='thumbnail'>
+                               <img src="img/js.png" alt="Javascript">
+                           </div>
+                           <div class="caption">
+                               <h3>Javascript ingredients</h3>
+                               <p>The Javascript part of this will consist modifying the picture position in a different way relative to the window. <a class="btn btn-success" href="http://code.tutsplus.com/tutorials/a-simple-parallax-scrolling-technique--net-27641">References</a></p>
+                        
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class='thumbnail'>
+                               <img src="img/css.png" alt="CSS">
+                           </div>
+                           <div class="caption">
+                               <h3>CSS ingredients</h3>
+                               <p>The CSS will reference the pictures (they are background image, not a thumbnail) and style them accordingly. The pictures should be big enough so as not to be repeated.</p>
+                        
+                           </div>
+                       </div>
+                   </div>
+                    <section id="nova" data-type="background" data-speed="5">
+                        
+                    </section>
+                     <div class="jumbotron">
+                        <h1>So that is what it looks like</h1>
+                        <p>Obviously this is a test run. I took the pictures from the hubble telescope website. Any images big enough will do but you have to take into account the scrolling effect will not center the image exactly like you expect. Hope you like it.</p>
+                    </div>
+
                 </div>
                 <div id="menu2" class="tab-pane fade">
                     <h3>Menu 2</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                 </div>
-                <div id="menu3" class="tab-pane fade">
-                    <h3>Menu 3</h3>
-                    <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                </div>
+                
             </div>
         </div>    
     </div>
